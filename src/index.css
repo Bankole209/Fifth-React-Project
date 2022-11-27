@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'Poppins',sans-serif;
+ 
+}
+.capital{
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border:1px solid lightgray;
+  padding: 0px 0px 30px 0px;
+  border-radius: 5px;
+}
+.pic-div{
+  margin: 10px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic{
+  width: 400px
+}
+.gray{
+  color:#918E9B;
+}
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  margin: 0px 5%;
+  gap: 15px;
+  overflow-x:auto ;
+}
+.finger{
+  width:200px;
+  border-radius: 9px;
+}
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+.para{
+  max-width: 200px;
+}
+.star{
+  width: 15px;
+}
+
+.btn{
+  display: inline-block;
+  background:#000;
+  color:#fff;
+  border:none;
+  padding:10px 20px;
+  margin:5px;
+  border-radius: 5px;
+  cursor:pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform:  scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder{
+  border-left: 5px solid green;
+}
+
+.task h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task h3 h2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-form{
+  margin-bottom: 40px;
+}
+
+.form-control{
+  margin:20px 0;
+}
+
+.form-control label{
+  display: block;
+}
+
+.form-control input{
+  width: 100%;
+  height:40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label{
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer{
+  margin-top:30px;
+  text-align: center;
+}
+.head{
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  background-color: #ffff;
+  height: 70px;
+}
+.reactfact{
+  color:#61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav-item > h4{
+  color:#DEEBF8;
+
+}
+.main{
+  color:#01264b;
+  padding: 30px 27px;
+  /* background-image: url(./react.png); */
+  background-size: 150px;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+.main > h1{
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main ul > li{
+  line-height: 19px;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+.main ul > li::marker{
+  font-size: 1.5rem;
+  color:#61DAFB;
+}
+.appcolor{
+  background-color: #ffff;
+}
+.mt{
+  margin-top: 10px;
+}
+.mb{
+  margin-bottom: 50px;
+}
+.px{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.my{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.text{
+  width: 280px;
+  text-align: left;
+}
+.m10{
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+}
+.nav-item{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-item > li {
+  margin: 0px 10px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* styles for Asquare */
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  padding: 20px 12px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.contact-card{
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 15px 15px 25px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+.setup-card{
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 15px 15px 25px;
+  width: 460px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+.info-group{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+.email{
+  font-size: smaller;
+}
+.name{
+  margin-top: 8px;
+}
